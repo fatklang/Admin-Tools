@@ -4,8 +4,6 @@ This script will list all inactive accounts, then disable them if desired.
 
 ## Logic
 
-The script runs in 4 main stages:
-
 1. Imports Active Directory module, if needed.
 2. Sets a variable for how many days ago a user must last have logged in to be considered inactive. Can be edited on line 10.
 3. Pulls inactive accounts:

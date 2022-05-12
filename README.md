@@ -1,5 +1,5 @@
 # Admin-Tools
-A collection of PowerShell scripts built for active directory and systems administration tasks.
+A collection of PowerShell scripts built for Active Directory and system administration tasks.
 
 See each individual script's readme for an explanation of usage.
 

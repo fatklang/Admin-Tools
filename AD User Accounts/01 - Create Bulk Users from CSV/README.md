@@ -1,8 +1,8 @@
 ## Function
 
-This script first imports a set of bulk users and properties from a CSV file.
+This script first imports a bulk dataset of users and their properties from a CSV file, then creates user accounts for the users.
 
-The example CSV in this directory shows the correct format for the file. Properties are completely changeable; the script can handle any number of properties, so you can fit it to whatever your organization needs. Simply edit line **10** to add or remove properties.
+The example CSV in this directory shows the correct format for the file. Properties are completely changeable. The script can handle any number of properties, so you can fit it to whatever your organization needs. Simply edit line **10** to add or remove properties.
 
 ## Logic
 

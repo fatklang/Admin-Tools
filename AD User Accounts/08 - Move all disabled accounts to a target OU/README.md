@@ -4,8 +4,6 @@ This script will move all disabled accounts to a specified OU.
 
 ## Logic
 
-The script runs in 4 main stages:
-
 1. Imports Active Directory module, if needed.
 2. Sets a target path for disabled accounts in the $path variable. This can be edited on line 4.
 3. Searches for all disabled accounts that are not currently in the specified OU and feeds them into the $movers array.

@@ -16,3 +16,4 @@ These are the general administration domains for which I'm planning to write scr
 - [ ] Printers
 - [ ] Networking
 - [ ] File Sharing
+- [ ] Security

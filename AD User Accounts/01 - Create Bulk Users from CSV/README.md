@@ -1,10 +1,10 @@
-##Function
+## Function
 
 This script first imports a set of bulk users and properties from a CSV file.
 
 The example CSV in this directory shows the correct format for the file. Properties are completely changeable; the script can handle any number of properties, so you can fit it to whatever your organization needs. Simply edit line **10** to add or remove properties.
 
-##Logic
+## Logic
 
 The script runs in 2 main stages:
 

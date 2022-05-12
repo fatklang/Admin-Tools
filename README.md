@@ -9,7 +9,7 @@ Below are the general administration domains for which I'm planning to write scr
 
 Completed domains will have a checkmark below. Any scripts within an incomplete domain are works-in-progress, and may not have full functionality, or may produce unexpected results. Run incomplete scripts at your own risk.
 
-- [ ] Active Directory Accounts - *Currently in ALPHA stage*
+- [ ] Active Directory User Accounts - *Currently in ALPHA stage*
 - [ ] Disks and Storage
 - [ ] Services
 - [ ] Printers

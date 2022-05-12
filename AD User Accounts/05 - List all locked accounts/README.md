@@ -4,8 +4,6 @@ This script will find all locked accounts and either display them to the screen 
 
 ## Logic
 
-The script runs in 2 main stages:
-
 1. Imports Active Directory module, if needed.
 2. Offers the user the choice of screen output or a CSV file.
     1. Screen output option:

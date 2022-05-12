@@ -4,8 +4,6 @@ This script will search for a specific user using the "Name" property, then will
 
 ## Logic
 
-The script runs in 3 main stages:
-
 1. Imports Active Directory module, if needed.
 2. Find user account loop
     1.  Asks the user for a Name property to search for the account.

@@ -5,11 +5,11 @@ See each individual script's readme for an explanation of usage.
 
 ## Roadmap
 
-These are the general administration domains for which I'm planning to write scripts.
+Below are the general administration domains for which I'm planning to write scripts.
 
-*Active Directory Accounts scripts are currently being built.*
+Completed domains will have a checkmark below. Any scripts within an incomplete domain are works-in-progress, and may not have full functionality, or may produce unexpected results. Run incomplete scripts at your own risk.
 
-- [ ] Active Directory Accounts
+- [ ] Active Directory Accounts - *Currently in ALPHA stage*
 - [ ] Active Directory Groups
 - [ ] Disks and Storage
 - [ ] Services

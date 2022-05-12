@@ -6,8 +6,6 @@ Note that every account in AD *must* have a primary group, and cannot be removed
 
 ## Logic
 
-The script runs in 4 main stages:
-
 1. Imports Active Directory module, if needed.
 2. Pulls the PrimaryGroupToken property from the Domain Users group and stores it in $primarytoken variable.
 3. Pulls all accounts that are not enabled, and feeds them and their group properties into the $disabledusers array.

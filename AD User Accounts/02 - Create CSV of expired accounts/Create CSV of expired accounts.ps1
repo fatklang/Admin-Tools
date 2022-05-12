@@ -6,6 +6,5 @@ $($expiring = Search-ADAccount -AccountExpired #pulls all users with expired acc
 
 ForEach ($e in $expiring){ #iterates through all users pulled in $expiring
     $e = Get-ADUser $e -Properties Name, ObjectClass, AccountExpirationDate, Enabled #pulls properties for later output to CSV. Change this line to get properties you want.
-
     $e | select Name, ObjectClass, AccountExpirationDate, Enabled #selects the properties that will be exported
 }) | Export-Csv -path $path -NoTypeInformation #exports data to CSV file at location in $path

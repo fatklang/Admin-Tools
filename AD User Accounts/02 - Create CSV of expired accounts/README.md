@@ -4,7 +4,7 @@ This script will find all expired accounts in your Active Directory and output t
 
 ## Logic
 
-The script runs in 2 main stages:
+The script runs in 4 main stages:
 
 1. Imports Active Directory module, if needed.
 2. Creates a path for the CSV file. By default it will be placed on the desktop.

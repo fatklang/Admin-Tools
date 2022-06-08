@@ -3,7 +3,7 @@ import-module -name activedirectory #imports AD module, if needed
 Do{
     $name = read-host "Enter full name of user account, i.e. `"Steve Johnson`"" #takes account user's name as input from user
 
-    $searchresult = Get-ADUser -Filter "name -like '$name'" #finds user with $name, adds user info to $searchresult
+    $searchresult = Get-ADUser -Filter "name -like '$name'" #finds user with $name and adds user info to $searchresult
 
     If($searchresult -ne $null) { #checks to see if a user was found in the previous step, or if a null value was returned
         $nameout = $searchresult.Name

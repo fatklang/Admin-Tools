@@ -5,7 +5,7 @@ import-module -name activedirectory #imports AD module, if needed
 #pulls the token for the Domain Users group and stores it in the $primarytoken variable
 $primarytoken = Get-ADGroup "Domain Users" -Properties PrimaryGroupToken
 
-#pulls all disables accounts and stores in $disabledusers array
+#pulls all disabled accounts and stores their infomration in $disabledusers array
 $disabledusers = Get-ADUser -Filter "Enabled -eq '$False'" -Properties Name,PrimaryGroup,MemberOf
 
 #determines if the user's primary group is Domain Users. If not, it is changed to Domain Users.

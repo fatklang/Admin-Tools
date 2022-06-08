@@ -7,7 +7,7 @@ This script:
 
 import-module -name activedirectory
 
-$InactiveDays = 30 #replace with the number of days to last logon
+$InactiveDays = 30 #replace with the desired number of days to last logon
 $DisableDate = (Get-Date).AddDays(-($InactiveDays))
 
 #finds all inactive users and stores them in the $InactiveUsers variable, then prints them to the screen
